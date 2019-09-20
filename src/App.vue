@@ -5,6 +5,7 @@
       ref="roundTurntable"
       :prizeData="prizeData"
       :rotateCircle="rotateCircle"
+      :duringTime="duringTime"
       :turntableStyleOption="turntableStyleOption"
       @endRotation="endRotation"
       class="turntable">
@@ -64,6 +65,8 @@
         ],
         // 转动的圈数
         rotateCircle: 6,
+        // 转动需要持续的时间（s）
+        duringTime: 4.5,
         // 转盘样式的选项
         turntableStyleOption: {
           // 背景色
