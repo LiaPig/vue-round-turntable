@@ -212,23 +212,23 @@ methods: {
 
 ### 五、roundTurntable组件的属性说明
 
-参数 | 说明 | 类型 | 默认值
-- | - | - | -
-ref | 获取这组件的dom节点，调用子组件的开始转动动画方法要用到`this.$refs[refName].rotate(index)`| string | —
-prizeData | 显示在转盘上的奖品数据 | array | —
-rotateCircle | 转盘要转过的圈数 | number | `6`
-duringTime| 转动需要持续的时间（单位为秒`s`） | number | `4.5`
-turntableStyleOption | 转盘的样式选项（背景色、外边框颜色） | object | `{ prizeBgColors: ['#AE3EFF', '#4D3FFF', '#FC262C', '#3A8BFF', '#EE7602', '#FE339F'], borderColor: '#199301' }`
-class | 用来定义转盘位置和大小的样式 | string | —
+| 参数 | 说明 | 类型 | 默认值 |
+|- | - | - | - |
+|ref | 获取这组件的dom节点，调用子组件的开始转动动画方法要用到`this.$refs[refName].rotate(index)`| string | — |
+|prizeData | 显示在转盘上的奖品数据 | array | — |
+|rotateCircle | 转盘要转过的圈数 | number | `6` |
+|duringTime| 转动需要持续的时间（单位为秒`s`） | number | `4.5` |
+|turntableStyleOption | 转盘的样式选项（背景色、外边框颜色） | object | `{ prizeBgColors: ['#AE3EFF', '#4D3FFF', '#FC262C', '#3A8BFF', '#EE7602', '#FE339F'], borderColor: '#199301' }` |
+|class | 用来定义转盘位置和大小的样式 | string | — |
 
 
 
 
 ### 六、roundTurntable组件的事件说明
 
-事件名称 | 说明 | 回调参数
-- | - | -
-endRotation | 转盘停下来后触发的事件回调  | —
+| 事件名称 | 说明 | 回调参数 |
+|- | - | - |
+| endRotation | 转盘停下来后触发的事件回调  | — |
 
 
 
